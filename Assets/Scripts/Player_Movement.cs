@@ -12,7 +12,7 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Serialized fields for movement values meaning they can be set in the Unity Inspector
+        
         float xValue = Input.GetAxis("Horizontal");
         float yValue = 0f; // No vertical movement in this example this is a jump movemnet
         float zValue = Input.GetAxis("Vertical");
